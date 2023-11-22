@@ -1,0 +1,105 @@
+/* Set up CSS custom properties (variables) for easy modification */
+:root {
+    --font-family: 'Playfair Display', serif;
+    --font-size-base: 16px;
+    --line-height-base: 1.6;
+    --color-background: #f5f2eb;
+    --color-text: #3d2c26;
+    --color-accent: #7e5c4c;
+    --color-button: #a4876b;
+  }
+  
+  /* Reset some default styles */
+  body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, figure, form, fieldset, legend, blockquote, textarea, pre {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-base);
+    color: var(--color-text);
+    background-color: var(--color-background);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--color-accent);
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  h1 { font-size: 2.5em; }
+  h2 { font-size: 2em; }
+  h3 { font-size: 1.8em; }
+  h4 { font-size: 1.5em; }
+  h5 { font-size: 1.2em; }
+  h6 { font-size: 1em; }
+  
+  /* Style the navigation bar */
+  .navbar {
+    background-color: var(--color-background);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+  }
+  
+  .navbar a {
+    color: var(--color-accent);
+    text-decoration: none;
+    margin: 0 1em;
+    font-weight: bold;
+  }
+  
+  /* Style the main content container */
+  .container.main {
+    padding: 2em;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style buttons */
+  button {
+    background-color: var(--color-button);
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #856646;
+  }
+  
+  /* Style links */
+  a {
+    color: var(--color-accent);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style headings within sections */
+  section h1, section h2, section h3, section h4, section h5, section h6 {
+    color: var(--color-accent);
+  }
+  
+  /* Style paragraph text */
+  p {
+    margin-bottom: 1em;
+    line-height: 1.4;
+  }
+  
+  /* Add more styles for buttons, forms, and other elements as needed */
+  
+  
+  
