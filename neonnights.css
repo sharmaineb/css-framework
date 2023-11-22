@@ -1,4 +1,4 @@
-/* Reset some default styles */
+/* reset some default styles */
 body, h1, h2, h3, h4, h5, h6, p, 
 ul, ol, dl, figure, form, fieldset, 
 legend, blockquote, textarea, pre {
@@ -7,11 +7,24 @@ legend, blockquote, textarea, pre {
 }
 
 :root {
-    --primary-color: #001a36; /* Deep Blue */
-    --secondary-color: #ffffff; /* White */
-    --accent-color: #ff69b4; /* Pink */
-    --text-color: #ffffff; /* White */
-    --background-color: #001a36; /* Deep Blue */
+    --vibrant-pink: #F2137B;
+    --magenta: #F20FA3;
+    --soft-purple: #F2B3E1;
+    --deep-pink: #F216CE;
+    --deep-blue: #102973;
+    --dark-grayish-blue: #151426;
+    --dark-charcoal: #0B0A0D;
+    --dark-blue: #0E1A40;
+    --turquoise: #05F2AF;
+    --bold-purple: #BF05F2;
+    --almost-black: #0D0D0D;
+    --sky-blue: #0583F2;
+
+    --primary-color: var(--deep-blue);
+    --secondary-color: var(--soft-purple); 
+    --accent-color: var(--magenta); 
+    --text-color: #fff; 
+    --background-color: var(--dark-charcoal); 
 }
 
 body {
@@ -22,7 +35,7 @@ body {
     background-color: var(--background-color);
 }
 
-/* Navigation */
+/* nav */
 .navbar {
     background-color: var(--primary-color);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -45,7 +58,7 @@ body {
     font-weight: bold;
 }
 
-/* Main content container */
+/* main content container */
 .container.main {
     padding: 2em;
     background-color: var(--primary-color);
@@ -53,7 +66,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Buttons */
+/* buttons */
 button {
     background-color: var(--accent-color);
     color: var(--secondary-color);
@@ -64,10 +77,10 @@ button {
 }
 
 button:hover {
-    background-color: #ff3385; /* Lighter Pink */
+    background-color: #F2137B; 
 }
 
-/* Links */
+/* links */
 a {
     color: var(--accent-color);
     text-decoration: none;
@@ -77,13 +90,14 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Headings within sections */
+/* headings within sections */
 section h1, section h2, section h3, section h4, section h5, section h6 {
     color: var(--accent-color);
 }
 
-/* Paragraph */
+/* paragraph */
 p {
     margin-bottom: 1em;
     line-height: 1.4;
 }
+
