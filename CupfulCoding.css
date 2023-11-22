@@ -38,26 +38,29 @@ h4 { font-size: 1.5em; }
 h5 { font-size: 1.2em; }
 h6 { font-size: 1em; }
   
+/* nav */
 .navbar {
-    background-color: var(--color-background);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: var(--color-background);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
 }
-  
+
 .navbar ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
-    padding: 1em;
+  list-style: none;
+  display: flex;
+  margin: 0; 
 }
-  
+
 .navbar a {
-    color: var(--color-accent);
-    text-decoration: none;
-    margin: 0 0.3em; 
-    font-weight: bold;
+  color: var(--color-accent);
+  text-decoration: none;
+  margin: 0 0.5em;
+  font-weight: bold;
 }
-  
+
 /* main content container */
   .container.main {
     padding: 2em;
@@ -100,6 +103,42 @@ p {
     margin-bottom: 1em;
     line-height: 1.4;
 }
+
+/* footer */
+
+#footers {
+  background-color: #333;
+  color: #fff;
+  padding: 2em 0;
+  text-align: center; /* Center text within the footer */
+}
+
+/* Style each column within the footer */
+.page-footer {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px; /* Add some spacing between columns */
+}
+
+.page-footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.page-footer h3 {
+  color: #f85353; /* Adjust the color as needed */
+}
+
+.page-footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.page-footer a:hover {
+  text-decoration: underline;
+}
+
+
 
   
   
