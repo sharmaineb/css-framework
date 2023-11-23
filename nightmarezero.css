@@ -1,0 +1,173 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&display=swap');
+
+/* reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.7;
+    color: #f1f1f1;
+    background-color: #000000;
+    font-family: 'IM Fell French Canon', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ff9800;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+h1 { 
+    font-size: 2.5em; 
+}
+
+h2 { 
+    font-size: 2em; 
+}
+
+h3 { 
+    font-size: 1.8em; 
+}
+
+h4 { 
+    font-size: 1.5em; 
+}
+
+h5 { 
+    font-size: 1.2em; 
+}
+
+h6 { 
+    font-size: 1em; 
+}
+
+/* nav */
+.navbar {
+    background-color: #000000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    padding: 1em;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.navbar ul li {
+    margin-right: 17px;
+}
+
+.navbar a {
+    color: #ff9800;
+    text-decoration: none;
+    margin: 0 0.5em;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #f2f2f2;
+}
+
+.title {
+    color: #ff9800;
+    font-family: 'Mountains of Christmas', sans-serif;
+    font-size: 2.5em;
+    margin: 0 auto;
+    margin-left: 3px;
+    margin-right: 13px;
+}
+
+/* main content container */
+.container.main {
+    padding: 2em;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* buttons */
+button {
+    background-color: #ff9800;
+    color: #000000;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e65100;
+}
+
+/* links */
+a {
+    color: #ff9800;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* headings in the sections */
+#headings h1, #headings h2, 
+#headings h3, #headings h4, #headings h5, #headings h6 {
+    text-align: center;
+    color: #ff9800; 
+}
+
+
+/* paragraph */
+p {
+    margin-bottom: 1em;
+    line-height: 1.4;
+}
+
+/* footer */
+#footers {
+    background-color: #000000;
+    color: #f1f1f1;
+    padding: 2em 0;
+    text-align: center;
+}
+
+/* style each column within the footer */
+.page-footer {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.page-footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.page-footer h3 {
+    color: #ff9800;
+}
+
+.page-footer a {
+    color: #f1f1f1;
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.page-footer a:hover {
+    text-decoration: underline;
+    color: #ff9800;
+}
+
+
+
