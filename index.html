@@ -42,13 +42,13 @@
 
 			<pre>
 				<code>
-&lt;h1&gt;Headings&lt;/h1&gt;
-&lt;h1&gt;H1 Heading&lt;/h1&gt;
-&lt;h2&gt;H2 Heading&lt;/h2&gt;
-&lt;h3&gt;H3 Heading&lt;/h3&gt;
-&lt;h4&gt;H4 Heading&lt;/h4&gt;
-&lt;h5&gt;H5 Heading&lt;/h5&gt;
-&lt;h6&gt;H6 Heading&lt;/h6&gt;
+				&lt;h1&gt;Headings&lt;/h1&gt;
+				&lt;h1&gt;H1 Heading&lt;/h1&gt;
+				&lt;h2&gt;H2 Heading&lt;/h2&gt;
+				&lt;h3&gt;H3 Heading&lt;/h3&gt;
+				&lt;h4&gt;H4 Heading&lt;/h4&gt;
+				&lt;h5&gt;H5 Heading&lt;/h5&gt;
+				&lt;h6&gt;H6 Heading&lt;/h6&gt;
 				</code>
 			</pre>
 		</section>
@@ -65,9 +65,9 @@
 				abbr for things like <abbr title="Hyper Text Markup Language">HTML</abbr>
 				and <abbr title="Cascading Stylesheets">CSS</abbr>.</p>
 			
-			<pre>
+			<pre id="paragraph-type">
 				<code>
-&lt;p&gt;This is an &lt;strong&gt;average&lt;/strong&gt; paragraph. It includes some &lt;em&gt;inline&lt;/em&gt; elements such as &lt;strong&gt; and &lt;em&gt;.&lt;/p&gt;
+				&lt;p&gt;This is an &lt;strong&gt;average&lt;/strong&gt; paragraph. It includes some &lt;em&gt;inline&lt;/em&gt; elements such as &lt;strong&gt; and &lt;em&gt;.&lt;/p&gt;
 				</code>
 			</pre>
 		</section>
@@ -84,31 +84,31 @@
 
 			<pre>
 				<code>
-&lt;button&gt;Submit&lt;/button&gt;
+					&lt;button&gt;Submit&lt;/button&gt;
 				</code>
 			</pre>
 
 			<p>This button has consequences. You might want to think twice before clicking.</p>
 			<p>Custimize buttons by adding CSS variables inline or with a class.</p>
 			<p>
-<button 
-	style="--weight: bold; --background-color: #f85353;"
->Delete</button>
-	<button 
-	style="--background-color: #6bc253;"
->Go!</button>
+			<button 
+				style="--weight: bold; --background-color: #f85353;"
+			>Delete</button>
+				<button 
+				style="--background-color: #6bc253;"
+			>Go!</button>
 			</p>
 
 			<pre>
 				<code>
-&lt;button 
-	style=&quot;--weight: bold; 
-	--background-color: #f85353;&quot;
-&gt;Delete&lt;/button&gt;
+				&lt;button 
+					style=&quot;--weight: bold; 
+					--background-color: #f85353;&quot;
+				&gt;Delete&lt;/button&gt;
 
-&lt;button 
-	style=&quot;--background-color: #6bc253;&quot;
-&gt;Go!&lt;/button&gt;
+				&lt;button 
+					style=&quot;--background-color: #6bc253;&quot;
+				&gt;Go!&lt;/button&gt;
 				</code>
 			</pre>
 		</section>
@@ -116,14 +116,14 @@
 
 		<!-- --------------------------- -->
 		<!-- Link styles -->
-		<section>
+		<section id="link-styles">
 			<h2>Links</h2>
 			<p>This <a href="#">paragraph</a> contains a couple <a href="#">links</a> to show off their styles in context.</p>
 		
 			<pre>
 				<code>
-&lt;p&gt;This &lt;a href=&quot;#&quot;&gt;paragraph&lt;/a&gt; contains a couple &lt;a
-href=&quot;#&quot;&gt;links&lt;/a&gt; to show off their styles in context.&lt;/p&gt;
+					&lt;p&gt;This &lt;a href=&quot;#&quot;&gt;paragraph&lt;/a&gt; contains a couple &lt;a
+					href=&quot;#&quot;&gt;links&lt;/a&gt; to show off their styles in context.&lt;/p&gt;
 				</code>
 			</pre>
 		
@@ -132,7 +132,7 @@ href=&quot;#&quot;&gt;links&lt;/a&gt; to show off their styles in context.&lt;/p
 
 		<!-- --------------------------- -->
 		<!-- Form Styles -->
-		<section>
+		<section id="forms">
 			<h2>Forms and controls</h2>
 			<form>
 				<label>
@@ -175,20 +175,20 @@ href=&quot;#&quot;&gt;links&lt;/a&gt; to show off their styles in context.&lt;/p
 			<h3>Input and label</h3>
 			<pre>
 				<code>
-&lt;label&gt;
-&#x9;&lt;span&gt;Text:&lt;/span&gt;
-&#x9;&lt;input type=&quot;text&quot; placeholder=&quot;What is your name?&quot;&gt;
-&lt;/label&gt;
+					&lt;label&gt;
+					&#x9;&lt;span&gt;Text:&lt;/span&gt;
+					&#x9;&lt;input type=&quot;text&quot; placeholder=&quot;What is your name?&quot;&gt;
+					&lt;/label&gt;
 				</code>
 			</pre>
 
 			<h3>Checkbox and label</h3>
 			<pre>
 				<code>
-&lt;label class=&quot;control-checkbox&quot;&gt;One
-&#x9;&lt;input type=&quot;checkbox&quot; checked=&quot;checked&quot;&gt;
-&#x9;&lt;span&gt;&lt;/span&gt;
-&lt;/label&gt;
+					&lt;label class=&quot;control-checkbox&quot;&gt;One
+					&#x9;&lt;input type=&quot;checkbox&quot; checked=&quot;checked&quot;&gt;
+					&#x9;&lt;span&gt;&lt;/span&gt;
+					&lt;/label&gt;
 				</code>
 						</pre>
 
@@ -199,29 +199,45 @@ href=&quot;#&quot;&gt;links&lt;/a&gt; to show off their styles in context.&lt;/p
 		<section id="colors">
 			<h1>Colors</h1>
 			<div class="color-grid">
-				
-				<div style="background-color: var(--color-background)">--color-background</div>
-				<div style="background-color: var(--color-foreground); color: var(--color-background)">--color-foreground</div>
-				<div style="background-color: var(--color-dark); color: var(--color-background)">--color-dark</div>
-				
-				<div style="background-color: var(--color-light)">--color-light</div>
-				
-				<div style="background-color: var(--color-md-light)">--color-md-light</div>
-				
-				<div style="background-color: var(--color-dark); color: var(--color-background)">--color-md-dark</div>
-				
-				<div style="background-color: var(--color-primary); color: var(--color-background)">--color-primary</div>
-				
-				<div style="background-color: var(--color-info); color: var(--color-background)">--color-info</div>
-				
-				<div style="background-color: var(--color-success); color: var(--color-background)">--color-success</div>
-				
-				<div style="background-color: var(--color-danger); color: var(--color-background)">--color-danger</div>
-				
-				<div style="background-color: var(--color-callout)">--color-callout</div>
-				<div style="background-color: var(--color-lightest)">--color-lightest</div>
+				<div style="background-color: var(--color-background)">
+					<span>--color-background</span>
+				</div>
+				<div style="background-color: var(--color-foreground); color: var(--color-background)">
+					<span>--color-foreground</span>
+				</div>
+				<div style="background-color: var(--color-dark); color: var(--color-background)">
+					<span>--color-dark</span>
+				</div>
+				<div style="background-color: var(--color-light)">
+					<span>--color-light</span>
+				</div>
+				<div style="background-color: var(--color-md-light)">
+					<span>--color-md-light</span>
+				</div>
+				<div style="background-color: var(--color-md-dark); color: var(--color-background)">
+					<span>--color-md-dark</span>
+				</div>
+				<div style="background-color: var(--color-primary); color: var(--color-background)">
+					<span>--color-primary</span>
+				</div>
+				<div style="background-color: var(--color-info); color: var(--color-background)">
+					<span>--color-info</span>
+				</div>
+				<div style="background-color: var(--color-success); color: var(--color-background)">
+					<span>--color-success</span>
+				</div>
+				<div style="background-color: var(--color-danger); color: var(--color-background)">
+					<span>--color-danger</span>
+				</div>
+				<div style="background-color: var(--color-callout)">
+					<span>--color-callout</span>
+				</div>
+				<div style="background-color: var(--color-lightest)">
+					<span>--color-lightest</span>
+				</div>
 			</div>
 		</section>
+
 		<!-- --------------------------- -->
 		
 
@@ -247,15 +263,15 @@ href=&quot;#&quot;&gt;links&lt;/a&gt; to show off their styles in context.&lt;/p
 			<div>
 				<pre class="code-block">
 					<code>
-&lt;div class=&quot;navbar&quot;&gt;
-	&lt;ul&gt;
-		&lt;li&gt;&lt;h1 class=&quot;title&quot;&gt;TITLE&lt;/h1&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Link 1&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Link 2&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Link 3&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Link 4&lt;/a&gt;&lt;/li&gt;
-	&lt;/ul&gt;
-&lt;/div&gt;
+					&lt;div class=&quot;navbar&quot;&gt;
+						&lt;ul&gt;
+							&lt;li&gt;&lt;h1 class=&quot;title&quot;&gt;TITLE&lt;/h1&gt;&lt;/li&gt;
+							&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Link 1&lt;/a&gt;&lt;/li&gt;
+							&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Link 2&lt;/a&gt;&lt;/li&gt;
+							&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Link 3&lt;/a&gt;&lt;/li&gt;
+							&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Link 4&lt;/a&gt;&lt;/li&gt;
+						&lt;/ul&gt;
+					&lt;/div&gt;
 					</code>
 				</pre>
 			</div>
