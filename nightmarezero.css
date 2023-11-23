@@ -74,7 +74,7 @@ h6 {
 }
 
 .navbar a:hover {
-    color: #f2f2f2;
+    color: #ff9800;
 }
 
 .title {
@@ -121,84 +121,85 @@ a:hover {
 /* headings in the sections */
 
 #headings {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
     padding: 2em;
     background-color: #000000;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
 }
 
-#headings h1 {
-    text-align: center;
-    color: #ff9800;
-    margin-bottom: 1.5em;
+.grid-item {
+    text-align: center; 
 }
 
-#headings h2,
-#headings h3,
-#headings h4,
-#headings h5,
-#headings h6 {
-    text-align: center;
-    color: #ff9800;
-    margin-bottom: 0.5em;
+.grid-item h1,
+.grid-item h2,
+.grid-item h3,
+.grid-item h4,
+.grid-item h5,
+.grid-item h6 {
+    font-family: 'IM Fell French Canon', sans-serif;
 }
 
-#headings h1 {
-    font-size: 2.5em;
-}
-
-#headings h2 {
-    font-size: 2em;
-}
-
-#headings h3 {
-    font-size: 1.8em;
-}
-
-#headings h4 {
-    font-size: 1.5em;
-}
-
-#headings h5 {
-    font-size: 1.2em;
-}
-
-#headings h6 {
-    font-size: 1em;
+.grid-item h1:hover,
+.grid-item h2:hover,
+.grid-item h3:hover,
+.grid-item h4:hover,
+.grid-item h5:hover,
+.grid-item h6:hover {
+    color: lightgreen;
 }
 
 #headings code {
     font-family: 'IM Fell French Canon', monospace; 
+    text-align: center;
+    display: block;
+    margin: 0 auto;
 }
 
-/* #headings h1, #headings h2, 
-#headings h3, #headings h4, #headings h5, #headings h6 {
+#headings pre {
     text-align: center;
-    color: #ff9800; 
-} */
+    margin: 0;
+}
+
+.container.main .heading-title {
+    font-family: 'Mountains of Christmas', sans-serif;
+    text-align: center;
+    font-size: 5em;
+    margin: 0;
+}
 
 /* paragraph */
 #type p {
     margin-bottom: 1em; 
     line-height: 1.4; 
+    font-size: 20px;
+    font-family: 'IM Fell French Canon', sans-serif;
 }
 
 #type h1 {
     font-family: 'Mountains of Christmas', sans-serif;
     text-align: center;
+    font-size: 3.5em;
 }
 
 #type strong {
     font-weight: bold;
+    color: lightpink;
 }
 
 #type em {
     font-style: italic; 
+    color: lightgreen;
 }
 
 #type abbr {
     text-decoration: underline; 
     cursor: help; 
+    color: lightgreen;
 }
 
 #type abbr:hover {
@@ -206,7 +207,7 @@ a:hover {
 }
 
 #paragraph-type {
-    background-color: #f5f5f5; 
+    background-color: #f2f2f2; 
     padding: 10px; 
     border-radius: 15px;
     color: #000;
@@ -214,8 +215,10 @@ a:hover {
 
 #paragraph-type code {
     font-family: 'IM Fell French Canon', monospace; 
+    font-size: 18px;
     display: block;
     text-align: center;
+    margin: 0 auto;
 }
 
 /* footer */
@@ -224,6 +227,11 @@ a:hover {
     color: #f1f1f1;
     padding: 2em 0;
     text-align: center;
+}
+
+#footers h2 {
+    font-size: 3em;
+    font-family: 'Mountains of Christmas', sans-serif;
 }
 
 /* style each column within the footer */
@@ -467,6 +475,30 @@ textarea {
 }
 
 /* buttons */
+
+#buttons pre {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 8px;
+    overflow-x: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#buttons code {
+    font-family: 'IM Fell French Canon', monospace; 
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    color: #000;
+    margin: 0 auto;
+}
+
+#buttons h2 {
+    text-align: center;
+    font-family: 'Mountains of Christmas', sans-serif;
+    font-size: 3.5em;
+}
+
 #buttons button {
     background-color: #007bff; 
     color: #f1f1f1; 
